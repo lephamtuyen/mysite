@@ -11,7 +11,7 @@ header:
   caption:
 excerpt: 'A nano blog for sharing something cool.<br/><br/><br/>'
 intro: 
-  - excerpt: 'Sharing something cool to me and enjoin the PhD life.'
+  - excerpt: 'Sharing something cool and enjoy PhD life :)'
 feature_row:
   - image_path: assets/images/unsplash-gallery-image-1-th.jpg
     alt: "placeholder image 1"
