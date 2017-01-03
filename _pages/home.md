@@ -6,7 +6,7 @@ header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/mm-home-page-feature.jpg
   cta_label: "<i class='fa fa-hand-o-right'></i> Explore"
-  cta_url: "/docs/quick-start-guide/"
+  cta_url: "/posts/"
   caption:
 excerpt: 'A nano blog for sharing something cool.<br/><br/> <br/> <br/><br/>'
 feature_row:
