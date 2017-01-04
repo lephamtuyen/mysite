@@ -65,27 +65,3 @@
   font-size: 18px;
   font-weight: 300;
 }
-@media (max-width: 768px) {
-  .tdate {
-    font-size: 16px;
-  }
-  .ttitle {
-    font-size: 16px;
-  }
-  .tdesc {
-    font-size: 16px;
-  }
-}
-.thigh {
-  color: #070;
-}
-.quote {
-  color: #777;
-  text-align: center;
-  font-style: italic;
-  font-weight: 300;
-  padding: 90px 0 50px;
-}
-.quote blockquote {
-  font-size: 28px;
-}
