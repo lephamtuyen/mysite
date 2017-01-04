@@ -1,6 +1,6 @@
 ---
 title: "Balancing Bicycle using Deep Deterministic Policy Gradient (DDPG)"
-excerpt: 'A Deep Reinforcement Learning Applied to Bicycle Domain<br/><br/><br/>'
+excerpt: 'A Deep Reinforcement Learning Algorithm Applied to Bicycle Domain<br/><br/><br/>'
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
