@@ -1,5 +1,5 @@
 ---
-title: "Hôm nay bạn gái cũ đi lấy chồng"
+title: "Hôm nay bạn gái cũ chống lầy"
 excerpt: 'Nhanh dễ sợ ~~<br/><br/><br/>'
 header:
   overlay_color: "#000"
