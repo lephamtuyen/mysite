@@ -3,8 +3,9 @@ layout: single
 permalink: /about/
 author_profile: true
 header:
-  image: /assets/images/foo-bar-identity.jpg
-  teaser: /assets/images/foo-bar-identity-th.jpg
+  image: https://c1.staticflickr.com/1/302/31251225644_4b8662e5f8_h.jpg
+  teaser: https://c1.staticflickr.com/1/302/31251225644_4b8662e5f8_h.jpg
+  caption: "My workspace (quite messy)"
 ---
 
 <div class="container">
