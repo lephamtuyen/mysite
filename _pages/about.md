@@ -3,8 +3,8 @@ layout: single
 permalink: /about/
 author_profile: true
 header:
-  image: https://c1.staticflickr.com/1/302/31251225644_4b8662e5f8_h.jpg
-  teaser: https://c1.staticflickr.com/1/302/31251225644_4b8662e5f8_h.jpg
+  image: https://c1.staticflickr.com/1/353/31971515902_57214c4643_o.jpg
+  teaser: https://c1.staticflickr.com/1/353/31971515902_57214c4643_o.jpg
   caption: "My workspace (quite messy)"
 ---
 
