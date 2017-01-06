@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-01-06T14:29:07+09:00</updated><id>http://localhost:4000//</id><title type="html">ᕦ(ò_óˇ)ᕤ</title><subtitle>A nano blog for sharing something cool to me</subtitle><author><name>Le Pham Tuyen</name><email>tuyenple@khu.ac.kr</email><uri>http://tuyenple.com</uri></author><entry><title type="html">Build PC for running deep reinforcement learning tasks</title><link href="http://localhost:4000/pc/deep%20reinforcement%20learning/build-machine/" rel="alternate" type="text/html" title="Build PC for running deep reinforcement learning tasks" /><published>2017-01-06T00:00:00+09:00</published><updated>2017-01-06T00:00:00+09:00</updated><id>http://localhost:4000/pc/deep%20reinforcement%20learning/build-machine</id><content type="html" xml:base="http://localhost:4000/pc/deep%20reinforcement%20learning/build-machine/">&lt;p&gt;To handle heavy tasks of deep reinforcement learning (DRL), the machine needs to have a strong confguration with GPU included. 
-After referenced a lot of articles on the internet (mainly from &lt;a href=&quot;http://graphific.github.io/posts/building-a-deep-learning-dream-machine/&quot;&gt;this&lt;/a&gt;), I finally choose a configuration, which can meet my requirements.
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-01-06T14:46:05+09:00</updated><id>http://localhost:4000//</id><title type="html">ᕦ(ò_óˇ)ᕤ</title><subtitle>A nano blog for sharing something cool to me</subtitle><author><name>Le Pham Tuyen</name><email>tuyenple@khu.ac.kr</email><uri>http://tuyenple.com</uri></author><entry><title type="html">Build PC for running deep reinforcement learning tasks</title><link href="http://localhost:4000/pc/deep%20reinforcement%20learning/build-machine/" rel="alternate" type="text/html" title="Build PC for running deep reinforcement learning tasks" /><published>2017-01-06T00:00:00+09:00</published><updated>2017-01-06T00:00:00+09:00</updated><id>http://localhost:4000/pc/deep%20reinforcement%20learning/build-machine</id><content type="html" xml:base="http://localhost:4000/pc/deep%20reinforcement%20learning/build-machine/">&lt;p&gt;To handle heavy tasks of deep reinforcement learning (DRL), a PC needs to have a strong configuration with GPU included. 
+After referenced a lot of articles on the Internet (mainly from &lt;a href=&quot;http://graphific.github.io/posts/building-a-deep-learning-dream-machine/&quot;&gt;this&lt;/a&gt;), I finally choose a configuration, which can meet my requirements.
 This is information of the PC’s configuration:&lt;/p&gt;
 
 &lt;table&gt;
@@ -14,19 +14,19 @@ This is information of the PC’s configuration:&lt;/p&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Motherboard&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://www.asus.com/Motherboards/X99E_WS/&quot;&gt;X99E_WS&lt;/a&gt;:&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://www.asus.com/Motherboards/X99E_WS/&quot;&gt;X99E_WS&lt;/a&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: right&quot;&gt;Allow to add multiple GPUs&lt;/td&gt;
       &lt;td&gt;500$&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;CPU&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;http://ark.intel.com/products/82931/Intel-Core-i7-5930K-Processor-15M-Cache-up-to-3_70-GHz&quot;&gt;Intell Core i7-5930K&lt;/a&gt;:&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;http://ark.intel.com/products/82931/Intel-Core-i7-5930K-Processor-15M-Cache-up-to-3_70-GHz&quot;&gt;Intell Core i7-5930K&lt;/a&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: right&quot;&gt;Not too much important (because we have GPU)&lt;/td&gt;
       &lt;td&gt;650$&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;GPU&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://www.nvidia.com/en-us/geforce/products/10series/geforce-gtx-1080/&quot;&gt;NVIDIA GTX 1080&lt;/a&gt;:&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://www.nvidia.com/en-us/geforce/products/10series/geforce-gtx-1080/&quot;&gt;NVIDIA GTX 1080&lt;/a&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: right&quot;&gt;Defeat most of GPU except Titan series (expensive)&lt;/td&gt;
       &lt;td&gt;700$&lt;/td&gt;
     &lt;/tr&gt;
@@ -38,26 +38,26 @@ This is information of the PC’s configuration:&lt;/p&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;SSD&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;http://www.samsung.com/semiconductor/minisite/ssd/product/consumer/850evo.html&quot;&gt;500 GB Samsung 850 EVO&lt;/a&gt;:&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;http://www.samsung.com/semiconductor/minisite/ssd/product/consumer/850evo.html&quot;&gt;500 GB Samsung 850 EVO&lt;/a&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: right&quot;&gt;Fast enough to read/write IOs&lt;/td&gt;
       &lt;td&gt;200$&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;PSU&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;http://www.super-flower.com.tw/products_detail.php?class=2&amp;amp;sn=17&amp;amp;ID=99&amp;amp;lang==&quot;&gt;Leadex Gold 1000W&lt;/a&gt;:&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;http://www.super-flower.com.tw/products_detail.php?class=2&amp;amp;sn=17&amp;amp;ID=99&amp;amp;lang==&quot;&gt;Leadex Gold 1000W&lt;/a&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: right&quot;&gt;Enough to supply electric to whole PC&lt;/td&gt;
       &lt;td&gt;250$&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;CPU Cooler&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;http://www.zalman.com/contents/products/view.html?no=344&quot;&gt;CNPS10X Optima&lt;/a&gt;:&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;http://www.zalman.com/contents/products/view.html?no=344&quot;&gt;CNPS10X Optima&lt;/a&gt;&lt;/td&gt;
       &lt;td style=&quot;text-align: right&quot;&gt;Best for CPU Socket 2011v3&lt;/td&gt;
       &lt;td&gt;50$&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;Case&lt;/td&gt;
       &lt;td style=&quot;text-align: center&quot;&gt;Stealth (A domestic brand in Korea)&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;A good thing from this pc case is that it has a lot of fans&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;A good thing from this PC case is that it has a lot of fans&lt;/td&gt;
       &lt;td&gt;50$&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
@@ -78,13 +78,13 @@ This is information of the PC’s configuration:&lt;/p&gt;
   &lt;figcaption&gt;PC's hardware.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;As an amateur, I must spend almost two days for assembling the pc and insstalling softwares (ubuntu, tensorflow and other stuffs).&lt;/p&gt;
+&lt;p&gt;As an amateur, I must spend almost two days for assembling the PC and installing softwares (Ubuntu, Tensorflow and other stuffs).&lt;/p&gt;
 
-&lt;p&gt;I end the setup by running a new DRL algorihtm called DDPG in swing-up pendulumn task. The code is written in Python and you can find them in &lt;a href=&quot;https://github.com/pemami4911/deep-rl&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I end the setup by running a new DRL algorithm called DDPG in swing-up pendulum task. The code is written in Python and you can find them in &lt;a href=&quot;https://github.com/pemami4911/deep-rl&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;figure class=&quot;align-center&quot; style=&quot;width: 320px&quot;&gt;
   &lt;img src=&quot;http://localhost:4000/assets/images/ddpg_swing.gif&quot; alt=&quot;&quot; /&gt;
   &lt;figcaption&gt;Running DDPG with swing-up pendulum (OpenAI Gym)&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;Finally, the PC run well and I hoped that this PC will help me do more research tasks in deep reinforcement learning durring PhD life :)&lt;/p&gt;</content><author><name>Le Pham Tuyen</name><email>tuyenple@khu.ac.kr</email><uri>http://tuyenple.com</uri></author><category term="PC" /><category term="DRL" /><summary type="html">Assembling pc for deep reinfocement learning</summary></entry></feed>
+&lt;p&gt;Finally, the PC run well and I hoped that this PC will help me do more research tasks in deep reinforcement learning during PhD life :)&lt;/p&gt;</content><author><name>Le Pham Tuyen</name><email>tuyenple@khu.ac.kr</email><uri>http://tuyenple.com</uri></author><category term="PC" /><category term="DRL" /><summary type="html">Assembling PC for deep reinforcement learning</summary></entry></feed>
