@@ -13,20 +13,11 @@ excerpt: 'A nano blog for sharing something cool.<br/><br/><br/>'
 intro: 
   - excerpt: 'Sharing something cool and enjoy PhD life :)'
 feature_row:
-  - image_path: assets/images/unsplash-gallery-image-1-th.jpg
-    alt: "placeholder image 1"
-    title: "Placeholder 1"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder 2"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--inverse"
-  - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
-    title: "Placeholder 3"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+  - image_path: https://c1.staticflickr.com/1/534/31744635880_a24435e692_h.jpg
+    alt: "Build PC for Deep Reinforcement Learning Tasks"
+    title: "Build PC for Deep Reinforcement Learning Tasks"
+    excerpt: "Build PC for Deep Reinforcement Learning Tasks"
+    url: /pc/deep%20reinforcement%20learning/build-machine/
 feature_row2:
   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
     alt: "placeholder image 2"
@@ -55,7 +46,7 @@ feature_row4:
 
 {% include feature_row id="intro" type="center" %}
 
-<!-- {% include feature_row %} -->
+{% include feature_row %}
 
 <!-- {% include feature_row id="feature_row2" type="left" %} -->
 
