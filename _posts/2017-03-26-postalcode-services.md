@@ -137,7 +137,7 @@ Here is the result:
         element_layer.style.display = 'block';
 
         // iframe을 넣은 element의 위치를 화면의 가운데로 이동시킨다.
-        initLayerPosition();
+        // initLayerPosition();
     }
 
     function initLayerPosition(){
