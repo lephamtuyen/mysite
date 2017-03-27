@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-03-27T21:07:44+09:00</updated><id>http://localhost:4000//</id><title type="html">ᕦ(ò_óˇ)ᕤ</title><subtitle>A nano blog for sharing something cool to me</subtitle><author><name>Le Pham Tuyen</name><email>tuyenple@khu.ac.kr</email><uri>http://tuyenple.com</uri></author><entry><title type="html">Find an address in Korea</title><link href="http://localhost:4000/korea/it/postalcode-services/" rel="alternate" type="text/html" title="Find an address in Korea" /><published>2017-03-26T00:00:00+09:00</published><updated>2017-03-26T00:00:00+09:00</updated><id>http://localhost:4000/korea/it/postalcode-services</id><content type="html" xml:base="http://localhost:4000/korea/it/postalcode-services/">&lt;p&gt;In Korea, Daum and Naver are two companies providing services such as map, address and navigation. Their services are almost free and you cannot see too much different in quality between them. Here is a simple example to integrate Daum postal code finder in your web application&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-03-27T21:26:56+09:00</updated><id>http://localhost:4000//</id><title type="html">ᕦ(ò_óˇ)ᕤ</title><subtitle>A nano blog for sharing something cool to me</subtitle><author><name>Le Pham Tuyen</name><email>tuyenple@khu.ac.kr</email><uri>http://tuyenple.com</uri></author><entry><title type="html">Find an address in Korea</title><link href="http://localhost:4000/korea/it/postalcode-services/" rel="alternate" type="text/html" title="Find an address in Korea" /><published>2017-03-26T00:00:00+09:00</published><updated>2017-03-26T00:00:00+09:00</updated><id>http://localhost:4000/korea/it/postalcode-services</id><content type="html" xml:base="http://localhost:4000/korea/it/postalcode-services/">&lt;p&gt;In Korea, Daum and Naver are two companies providing services such as map, address and navigation. Their services are almost free and you cannot see too much different in quality between them. Here is a simple example to integrate Daum postal code finder in your web application&lt;/p&gt;
 
 &lt;p&gt;Nothing except some lines of code :)) (in javascript)&lt;/p&gt;
 
@@ -16,19 +16,17 @@
 
 &lt;p&gt;Here is the result:&lt;/p&gt;
 
-&lt;p&gt;&lt;input type=&quot;text&quot; id=&quot;postcode&quot; placeholder=&quot;Postal Code&quot; readonly=&quot;true&quot; style=&quot;width: 7em&quot; value=&quot;16702&quot; /&gt;
+&lt;div id=&quot;map&quot; style=&quot;min-width:300px;width:500px;height:500px;margin-top:10px;&quot;&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;input type=&quot;text&quot; id=&quot;postcode&quot; placeholder=&quot;Postal Code&quot; readonly=&quot;true&quot; style=&quot;width: 7em&quot; value=&quot;16702&quot; /&gt;
 &lt;input type=&quot;button&quot; onclick=&quot;execDaumPostcode()&quot; value=&quot;Find&quot; /&gt;&lt;br style=&quot;display: inline-block;     padding: .5em 1em;     margin: .4em .15em;     border: 1px solid #ccc;     border-color: #dbdbdb #d2d2d2 #b2b2b2 #d2d2d3;     cursor: pointer;     color: #464646;     border-radius: .2em;     vertical-align: middle;     font-size: 1em;     line-height: 1.25em;     background-image: -webkit-gradient(linear,left top,left bottom,from(#fff),to(#f2f2f2));&quot; /&gt;
 &lt;input type=&quot;text&quot; id=&quot;address&quot; placeholder=&quot;Address in Korean&quot; readonly=&quot;true&quot; value=&quot;경기 수원시 영통구 덕영대로1673번길 8-11 (영통동)&quot; /&gt;
 &lt;input type=&quot;text&quot; id=&quot;addressEnglish&quot; placeholder=&quot;Address in English&quot; readonly=&quot;true&quot; value=&quot;8-11, Deogyeong-daero 1673beon-gil, Yeongtong-gu, Suwon-si, Gyeonggi-do, Korea&quot; /&gt;&lt;/p&gt;
-&lt;div id=&quot;map&quot; style=&quot;min-width:300px;width:500px;height:500px;margin-top:10px;&quot;&gt;&lt;/div&gt;
-&lt;div id=&quot;layer&quot; style=&quot;display: none; position: fixed; z-index: 10; width: 300px; height: 460px; border: 5px solid; left: 137px; top: 195.5px;&quot;&gt;
-    &lt;img src=&quot;//t1.daumcdn.net/localimg/localimages/07/postcode/320/close.png&quot; id=&quot;btnCloseLayer&quot; style=&quot;cursor:pointer;position:absolute;right:-3px;top:-3px;z-index:1&quot; onclick=&quot;closeDaumPostcode()&quot; alt=&quot;닫기 버튼&quot; /&gt;
-&lt;/div&gt;
+&lt;div id=&quot;wrap&quot; style=&quot;display: none; border: 1px solid; width: 300px; height: 460px; margin: 5px 0px; position: relative;&quot;&gt;
+            &lt;img src=&quot;//t1.daumcdn.net/localimg/localimages/07/postcode/320/close.png&quot; id=&quot;btnFoldWrap&quot; style=&quot;cursor:pointer;position:absolute;right:0px;top:-1px;z-index:1&quot; onclick=&quot;foldDaumPostcode()&quot; alt=&quot;접기 버튼&quot; /&gt;
 
 &lt;script src=&quot;http://dmaps.daum.net/map_js_init/postcode.v2.js&quot;&gt;&lt;/script&gt;
-
 &lt;script type=&quot;text/javascript&quot; src=&quot;//apis.daum.net/maps/maps3.js?apikey=cecc09dab177ecc51e0dfd90cd2e832c&amp;amp;libraries=services&quot;&gt;&lt;/script&gt;
-
 &lt;script&gt;
     var mapContainer = document.getElementById('map'), // 지도를 표시할 div
         mapOption = {
@@ -47,15 +45,17 @@
     });
     marker.setTitle('Nhà tui');
 
-    // 우편번호 찾기 화면을 넣을 element
-    var element_layer = document.getElementById('layer');
+    // 우편번호 찾기 찾기 화면을 넣을 element
+    var element_wrap = document.getElementById('wrap');
 
-    function closeDaumPostcode() {
+    function foldDaumPostcode() {
         // iframe을 넣은 element를 안보이게 한다.
-        element_layer.style.display = 'none';
+        element_wrap.style.display = 'none';
     }
 
     function execDaumPostcode() {
+        // 현재 scroll 위치를 저장해놓는다.
+        var currentScroll = Math.max(document.body.scrollTop, document.documentElement.scrollTop);
         new daum.Postcode({
             oncomplete: function(data) {
                 // 검색결과 항목을 클릭했을때 실행할 코드를 작성하는 부분.
@@ -105,34 +105,82 @@
 
                     // iframe을 넣은 element를 안보이게 한다.
                     // (autoClose:false 기능을 이용한다면, 아래 코드를 제거해야 화면에서 사라지지 않는다.)
-                    element_layer.style.display = 'none';
+                    element_wrap.style.display = 'none';
+                    // 우편번호 찾기 화면이 보이기 이전으로 scroll 위치를 되돌린다.
+                    document.body.scrollTop = currentScroll;
                 },
+            // 우편번호 찾기 화면 크기가 조정되었을때 실행할 코드를 작성하는 부분. iframe을 넣은 element의 높이값을 조정한다.
+            onresize : function(size) {
+                element_wrap.style.height = size.height+'px';
+            },
             width : '100%',
             height : '100%'
-        }).embed(element_layer);
+        }).embed(element_wrap);
 
         // iframe을 넣은 element를 보이게 한다.
-        element_layer.style.display = 'block';
-
-        // iframe을 넣은 element의 위치를 화면의 가운데로 이동시킨다.
-        initLayerPosition();
-    }
-
-    function initLayerPosition(){
-        var width = 300; //우편번호서비스가 들어갈 element의 width
-        var height = 460; //우편번호서비스가 들어갈 element의 height
-        var borderWidth = 5; //샘플에서 사용하는 border의 두께
-
-        // 위에서 선언한 값들을 실제 element에 넣는다.
-        element_layer.style.width = width + 'px';
-        element_layer.style.height = height + 'px';
-        element_layer.style.border = borderWidth + 'px solid';
-        // 실행되는 순간의 화면 너비와 높이 값을 가져와서 중앙에 뜰 수 있도록 위치를 계산한다.
-        element_layer.style.left = (((window.innerWidth || document.documentElement.clientWidth) - width)/2 - borderWidth) + 'px';
-        element_layer.style.top = (((window.innerHeight || document.documentElement.clientHeight) - height)/2 - borderWidth) + 'px';
+        element_wrap.style.display = 'block';
     }
         
-&lt;/script&gt;</content><author><name>Le Pham Tuyen</name><email>tuyenple@khu.ac.kr</email><uri>http://tuyenple.com</uri></author><summary type="html">Integrate postal code finder with a few simple steps</summary></entry><entry><title type="html">Build PC for running deep reinforcement learning tasks</title><link href="http://localhost:4000/pc/deep%20reinforcement%20learning/build-machine/" rel="alternate" type="text/html" title="Build PC for running deep reinforcement learning tasks" /><published>2017-01-06T00:00:00+09:00</published><updated>2017-01-06T00:00:00+09:00</updated><id>http://localhost:4000/pc/deep%20reinforcement%20learning/build-machine</id><content type="html" xml:base="http://localhost:4000/pc/deep%20reinforcement%20learning/build-machine/">&lt;p&gt;To handle heavy tasks of deep reinforcement learning (DRL), a PC needs to have a strong configuration with GPU included. 
+&lt;/script&gt;
+
+
+            // &lt;!-- 우편번호 찾기 찾기 화면을 넣을 element
+            var element_wrap = document.getElementById('wrap');
+
+            function foldDaumPostcode() {
+                // iframe을 넣은 element를 안보이게 한다.
+                element_wrap.style.display = 'none';
+            }
+
+            function sample3_execDaumPostcode() {
+                // 현재 scroll 위치를 저장해놓는다.
+                var currentScroll = Math.max(document.body.scrollTop, document.documentElement.scrollTop);
+                new daum.Postcode({
+                    oncomplete: function(data) {
+                        // 검색결과 항목을 클릭했을때 실행할 코드를 작성하는 부분.
+
+                        // 각 주소의 노출 규칙에 따라 주소를 조합한다.
+                        // 내려오는 변수가 값이 없는 경우엔 공백('')값을 가지므로, 이를 참고하여 분기 한다.
+                        var fullAddr = data.address; // 최종 주소 변수
+                        var extraAddr = ''; // 조합형 주소 변수
+
+                        // 기본 주소가 도로명 타입일때 조합한다.
+                        if(data.addressType === 'R'){
+                            //법정동명이 있을 경우 추가한다.
+                            if(data.bname !== ''){
+                                extraAddr += data.bname;
+                            }
+                            // 건물명이 있을 경우 추가한다.
+                            if(data.buildingName !== ''){
+                                extraAddr += (extraAddr !== '' ? ', ' + data.buildingName : data.buildingName);
+                            }
+                            // 조합형주소의 유무에 따라 양쪽에 괄호를 추가하여 최종 주소를 만든다.
+                            fullAddr += (extraAddr !== '' ? ' ('+ extraAddr +')' : '');
+                        }
+
+                        // 우편번호와 주소 및 영문주소 정보를 해당 필드에 넣는다.
+                        document.getElementById('sample3_postcode').value = data.zonecode;
+                        document.getElementById('sample3_address').value = fullAddr;
+
+                        // iframe을 넣은 element를 안보이게 한다.
+                        element_wrap.style.display = 'none';
+
+                        // 우편번호 찾기 화면이 보이기 이전으로 scroll 위치를 되돌린다.
+                        document.body.scrollTop = currentScroll;
+                    },
+                    // 우편번호 찾기 화면 크기가 조정되었을때 실행할 코드를 작성하는 부분. iframe을 넣은 element의 높이값을 조정한다.
+                    onresize : function(size) {
+                        element_wrap.style.height = size.height+'px';
+                    },
+                    width : '100%',
+                    height : '100%'
+                }).embed(element_wrap);
+
+                // iframe을 넣은 element를 보이게 한다.
+                element_wrap.style.display = 'block';
+            }
+ --&gt;
+&lt;/div&gt;</content><author><name>Le Pham Tuyen</name><email>tuyenple@khu.ac.kr</email><uri>http://tuyenple.com</uri></author><summary type="html">Integrate postal code finder with a few simple steps</summary></entry><entry><title type="html">Build PC for running deep reinforcement learning tasks</title><link href="http://localhost:4000/pc/deep%20reinforcement%20learning/build-machine/" rel="alternate" type="text/html" title="Build PC for running deep reinforcement learning tasks" /><published>2017-01-06T00:00:00+09:00</published><updated>2017-01-06T00:00:00+09:00</updated><id>http://localhost:4000/pc/deep%20reinforcement%20learning/build-machine</id><content type="html" xml:base="http://localhost:4000/pc/deep%20reinforcement%20learning/build-machine/">&lt;p&gt;To handle heavy tasks of deep reinforcement learning (DRL), a PC needs to have a strong configuration with GPU included. 
 After referenced a lot of articles on the Internet (mainly from &lt;a href=&quot;http://graphific.github.io/posts/building-a-deep-learning-dream-machine/&quot;&gt;this&lt;/a&gt;), I finally choose a configuration, which can meet my requirements.
 This is information of the PC’s configuration:&lt;/p&gt;
 
