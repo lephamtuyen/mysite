@@ -18,14 +18,17 @@ feature_row:
     title: "Build PC for Deep Reinforcement Learning Tasks"
     excerpt: "Build PC for Deep Reinforcement Learning Tasks"
     url: /pc/deep%20reinforcement%20learning/build-machine/
+  - image_path: https://c1.staticflickr.com/3/2850/33290848710_84c5790e11_o.png
+    alt: "Postal code search in Korea"
+    title: "Postal code search in Korea"
+    excerpt: "Integrate postal search with a few simple steps"
+    url: /korea/it/postalcode-services/
 feature_row2:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Left Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--inverse"
+  - image_path: https://c1.staticflickr.com/3/2850/33290848710_84c5790e11_o.png
+    alt: "Postal code search in Korea"
+    title: "Postal code search in Korea"
+    excerpt: "Integrate postal search with a few simple steps"
+    url: /korea/it/postalcode-services/
 feature_row3:
   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
     alt: "placeholder image 2"
@@ -46,10 +49,8 @@ feature_row4:
 
 {% include feature_row id="intro" type="center" %}
 
-{% include feature_row %}
+{% include feature_row%}
 
-<!-- {% include feature_row id="feature_row2" type="left" %} -->
-
-<!-- {% include feature_row id="feature_row3" type="right" %} -->
+<!-- {% include feature_row id="feature_row2" type="center" %} -->
 
 <!-- {% include feature_row id="feature_row4" type="center" %} -->

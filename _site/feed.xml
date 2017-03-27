@@ -1,4 +1,106 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-01-06T14:46:05+09:00</updated><id>http://localhost:4000//</id><title type="html">ᕦ(ò_óˇ)ᕤ</title><subtitle>A nano blog for sharing something cool to me</subtitle><author><name>Le Pham Tuyen</name><email>tuyenple@khu.ac.kr</email><uri>http://tuyenple.com</uri></author><entry><title type="html">Build PC for running deep reinforcement learning tasks</title><link href="http://localhost:4000/pc/deep%20reinforcement%20learning/build-machine/" rel="alternate" type="text/html" title="Build PC for running deep reinforcement learning tasks" /><published>2017-01-06T00:00:00+09:00</published><updated>2017-01-06T00:00:00+09:00</updated><id>http://localhost:4000/pc/deep%20reinforcement%20learning/build-machine</id><content type="html" xml:base="http://localhost:4000/pc/deep%20reinforcement%20learning/build-machine/">&lt;p&gt;To handle heavy tasks of deep reinforcement learning (DRL), a PC needs to have a strong configuration with GPU included. 
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-03-27T14:47:45+09:00</updated><id>http://localhost:4000//</id><title type="html">ᕦ(ò_óˇ)ᕤ</title><subtitle>A nano blog for sharing something cool to me</subtitle><author><name>Le Pham Tuyen</name><email>tuyenple@khu.ac.kr</email><uri>http://tuyenple.com</uri></author><entry><title type="html">Postal code search in Korea</title><link href="http://localhost:4000/korea/it/postalcode-services/" rel="alternate" type="text/html" title="Postal code search in Korea" /><published>2017-03-26T00:00:00+09:00</published><updated>2017-03-26T00:00:00+09:00</updated><id>http://localhost:4000/korea/it/postalcode-services</id><content type="html" xml:base="http://localhost:4000/korea/it/postalcode-services/">&lt;p&gt;In Korea, Daum and Naver are two companies providing services such as map, address and navigation. Their services are almost free and you cannot see too much different in quality between those companies. Here is a simple example to integrate Daum postal search in your web application&lt;/p&gt;
+
+&lt;p&gt;Nothing except some lines of code (in javascript)&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;script&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;http://dmaps.daum.net/map_js_init/postcode.v2.js&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/script&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;
+&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;script&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;daum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Postcode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;oncomplete&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;c1&quot;&gt;// 팝업에서 검색결과 항목을 클릭했을때 실행할 코드를 작성하는 부분입니다.&lt;/span&gt;
+            &lt;span class=&quot;c1&quot;&gt;// 예제를 참고하여 다양한 활용법을 확인해 보세요.&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/script&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Here is the result:&lt;/p&gt;
+
+&lt;p&gt;&lt;input type=&quot;text&quot; id=&quot;postcode&quot; placeholder=&quot;Postal Code&quot; readonly=&quot;true&quot; style=&quot;width: 7em&quot; value=&quot;16702&quot; /&gt;
+&lt;input type=&quot;button&quot; onclick=&quot;execDaumPostcode()&quot; value=&quot;Find&quot; /&gt;&lt;br style=&quot;display: inline-block;     padding: .5em 1em;     margin: .4em .15em;     border: 1px solid #ccc;     border-color: #dbdbdb #d2d2d2 #b2b2b2 #d2d2d3;     cursor: pointer;     color: #464646;     border-radius: .2em;     vertical-align: middle;     font-size: 1em;     line-height: 1.25em;     background-image: -webkit-gradient(linear,left top,left bottom,from(#fff),to(#f2f2f2));&quot; /&gt;
+&lt;input type=&quot;text&quot; id=&quot;roadAddress&quot; placeholder=&quot;Road Address&quot; readonly=&quot;true&quot; value=&quot;경기 수원시 영통구 덕영대로1673번길 8-11 (영통동)&quot; /&gt;
+&lt;input type=&quot;text&quot; id=&quot;jibunAddress&quot; placeholder=&quot;Building Address&quot; readonly=&quot;true&quot; value=&quot;경기 수원시 영통구 영통동 992-7&quot; /&gt;&lt;/p&gt;
+&lt;div id=&quot;map&quot; style=&quot;min-width:300px;width:500px;height:500px;margin-top:10px;&quot;&gt;&lt;/div&gt;
+
+&lt;script src=&quot;http://dmaps.daum.net/map_js_init/postcode.v2.js&quot;&gt;&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;//apis.daum.net/maps/maps3.js?apikey=52e068538338ad2e6481d5d45cec4567&amp;amp;libraries=services&quot;&gt;&lt;/script&gt;
+
+&lt;script&gt;
+    var mapContainer = document.getElementById('map'), // 지도를 표시할 div
+        mapOption = {
+            center: new daum.maps.LatLng(37.2480917899, 127.0748453175), // 지도의 중심좌표
+            level: 5 // 지도의 확대 레벨
+        };
+
+    //지도를 미리 생성
+    var map = new daum.maps.Map(mapContainer, mapOption);
+    //주소-좌표 변환 객체를 생성
+    var geocoder = new daum.maps.services.Geocoder();
+    //마커를 미리 생성
+    var marker = new daum.maps.Marker({
+        position: new daum.maps.LatLng(37.2480917899, 127.0748453175),
+        map: map
+    });
+    marker.setTitle('Nhà tui');
+    // var markerImage = new daum.maps.MarkerImage('https://c2.staticflickr.com/4/3853/33518120332_8c48f4ecbb_o.png',new daum.maps.Size(31, 35), new daum.maps.Point(13, 34));
+    // marker.setImage(markerImage);
+    //본 예제에서는 도로명 주소 표기 방식에 대한 법령에 따라, 내려오는 데이터를 조합하여 올바른 주소를 구성하는 방법을 설명합니다.
+    function execDaumPostcode() {
+        new daum.Postcode({
+            oncomplete: function(data) {
+                // 팝업에서 검색결과 항목을 클릭했을때 실행할 코드를 작성하는 부분.
+
+                // 도로명 주소의 노출 규칙에 따라 주소를 조합한다.
+                // 내려오는 변수가 값이 없는 경우엔 공백('')값을 가지므로, 이를 참고하여 분기 한다.
+                var fullRoadAddr = data.roadAddress; // 도로명 주소 변수
+                var extraRoadAddr = ''; // 도로명 조합형 주소 변수
+
+                // 법정동명이 있을 경우 추가한다. (법정리는 제외)
+                // 법정동의 경우 마지막 문자가 &quot;동/로/가&quot;로 끝난다.
+                if(data.bname !== '' &amp;&amp; /[동|로|가]$/g.test(data.bname)){
+                    extraRoadAddr += data.bname;
+                }
+                // 건물명이 있고, 공동주택일 경우 추가한다.
+                if(data.buildingName !== '' &amp;&amp; data.apartment === 'Y'){
+                   extraRoadAddr += (extraRoadAddr !== '' ? ', ' + data.buildingName : data.buildingName);
+                }
+                // 도로명, 지번 조합형 주소가 있을 경우, 괄호까지 추가한 최종 문자열을 만든다.
+                if(extraRoadAddr !== ''){
+                    extraRoadAddr = ' (' + extraRoadAddr + ')';
+                }
+                // 도로명, 지번 주소의 유무에 따라 해당 조합형 주소를 추가한다.
+                if(fullRoadAddr !== ''){
+                    fullRoadAddr += extraRoadAddr;
+                }
+
+                // 우편번호와 주소 정보를 해당 필드에 넣는다.
+                document.getElementById('postcode').value = data.zonecode; //5자리 새우편번호 사용
+                document.getElementById('roadAddress').value = fullRoadAddr;
+                document.getElementById('jibunAddress').value = data.jibunAddress;
+
+                // 주소로 좌표를 검색
+                geocoder.addr2coord(data.address, function(status, result) {
+                    // 정상적으로 검색이 완료됐으면
+                    if (status === daum.maps.services.Status.OK) {
+                        console.log(result.addr[0].lat)
+                        console.log(result.addr[0].lng)
+                        // 해당 주소에 대한 좌표를 받아서
+                        var coords = new daum.maps.LatLng(result.addr[0].lat, result.addr[0].lng);
+                        // 지도를 보여준다.
+                        mapContainer.style.display = &quot;block&quot;;
+                        map.relayout();
+                        // 지도 중심을 변경한다.
+                        map.setCenter(coords);
+                        // 마커를 결과값으로 받은 위치로 옮긴다.
+                        marker.setPosition(coords)
+                        marker.setTitle('Nhà người ta');
+                    }
+                });
+            }
+        }).open();
+    }
+&lt;/script&gt;</content><author><name>Le Pham Tuyen</name><email>tuyenple@khu.ac.kr</email><uri>http://tuyenple.com</uri></author><summary type="html">Integrate postal search with a few simple steps</summary></entry><entry><title type="html">Build PC for running deep reinforcement learning tasks</title><link href="http://localhost:4000/pc/deep%20reinforcement%20learning/build-machine/" rel="alternate" type="text/html" title="Build PC for running deep reinforcement learning tasks" /><published>2017-01-06T00:00:00+09:00</published><updated>2017-01-06T00:00:00+09:00</updated><id>http://localhost:4000/pc/deep%20reinforcement%20learning/build-machine</id><content type="html" xml:base="http://localhost:4000/pc/deep%20reinforcement%20learning/build-machine/">&lt;p&gt;To handle heavy tasks of deep reinforcement learning (DRL), a PC needs to have a strong configuration with GPU included. 
 After referenced a lot of articles on the Internet (mainly from &lt;a href=&quot;http://graphific.github.io/posts/building-a-deep-learning-dream-machine/&quot;&gt;this&lt;/a&gt;), I finally choose a configuration, which can meet my requirements.
 This is information of the PC’s configuration:&lt;/p&gt;
 
