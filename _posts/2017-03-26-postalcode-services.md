@@ -47,7 +47,7 @@ Here is the result:
 <div id="map" style="min-width:300px;width:500px;height:500px;margin-top:10px;"></div>
 
 <script src="http://dmaps.daum.net/map_js_init/postcode.v2.js"></script>
-<script type="text/javascript" src="//apis.daum.net/maps/maps3.js?apikey=52e068538338ad2e6481d5d45cec4567&libraries=services"></script>
+<script type="text/javascript" src="//apis.daum.net/maps/maps3.js?apikey=cecc09dab177ecc51e0dfd90cd2e832c&libraries=services"></script>
 <script>
     var mapContainer = document.getElementById('map'), // 지도를 표시할 div
         mapOption = {
