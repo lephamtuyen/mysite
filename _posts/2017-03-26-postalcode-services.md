@@ -1,6 +1,6 @@
 ---
-title: "Postal code search in Korea"
-excerpt: 'Integrate postal search with a few simple steps<br/><br/><br/>'
+title: "Find an address in Korea"
+excerpt: 'Integrate postal code finder with a few simple steps<br/><br/><br/>'
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -11,9 +11,9 @@ categories:
   - IT
 ---
 
-In Korea, Daum and Naver are two companies providing services such as map, address and navigation. Their services are almost free and you cannot see too much different in quality between those companies. Here is a simple example to integrate Daum postal search in your web application
+In Korea, Daum and Naver are two companies providing services such as map, address and navigation. Their services are almost free and you cannot see too much different in quality between them. Here is a simple example to integrate Daum postal code finder in your web application
 
-Nothing except some lines of code (in javascript)
+Nothing except some lines of code :)) (in javascript)
 
 ```javascript
 <script src="http://dmaps.daum.net/map_js_init/postcode.v2.js"></script>

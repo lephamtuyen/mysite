@@ -19,15 +19,15 @@ feature_row:
     excerpt: "Build PC for Deep Reinforcement Learning Tasks"
     url: /pc/deep%20reinforcement%20learning/build-machine/
   - image_path: https://c1.staticflickr.com/3/2850/33290848710_84c5790e11_o.png
-    alt: "Postal code search in Korea"
-    title: "Postal code search in Korea"
-    excerpt: "Integrate postal search with a few simple steps"
+    alt: "Find an address in Korea"
+    title: "Find an address in Korea"
+    excerpt: "Integrate postal code finder with a few simple steps"
     url: /korea/it/postalcode-services/
 feature_row2:
   - image_path: https://c1.staticflickr.com/3/2850/33290848710_84c5790e11_o.png
-    alt: "Postal code search in Korea"
-    title: "Postal code search in Korea"
-    excerpt: "Integrate postal search with a few simple steps"
+    alt: "Find an address in Korea"
+    title: "Find an address in Korea"
+    excerpt: "Integrate postal code finder with a few simple steps"
     url: /korea/it/postalcode-services/
 feature_row3:
   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
