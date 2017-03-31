@@ -9,7 +9,7 @@ header:
   cta_label: "<i class='fa fa-hand-o-right'></i> Explore"
   cta_url: "/posts/"
   caption:
-excerpt: 'A nano blog for sharing something cool.<br/><br/><br/>'
+excerpt: 'A nano blog for sharing something cool.<br/><br/><br/><br/><br/>'
 intro: 
   - excerpt: 'Sharing something cool and enjoy PhD life :)'
 feature_row:

@@ -163,6 +163,12 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
+# Collections
+collections:
+  galleries:
+    output: true
+    permalink: /:collection/:path/
+
 # Sass/SCSS
 sass:
   sass_dir: _sass
@@ -204,6 +210,14 @@ defaults:
       comments: true
       share: true
       related: true
+  # _galleries
+  - scope:
+      path: ""
+      type: galleries
+    values:
+      layout: single
+      author_profile: false
+      share: true
 
 # Archives
 #  Type
