@@ -1,44 +1,43 @@
 # jemdoc: menu{MENU}{courses.html}
 = Courses
 
-Here is a list of most of the courses I did at Bach Khoa University and Kyung Hee University.
-=== Machine Learning and Artificial Intelligence
-- [http://cse.iitk.ac.in/users/hk/mfml/ Mathematics for Machine Learning], by Prof. Harish Karnick and Dr. [http://research.microsoft.com/en-us/people/prajain/ Prateek Jain] (Microsoft Research)
-- [http://cse.iitk.ac.in/users/hk/cs771/ Machine Learning Tools and Techniques], by Prof. Harish Karnick
-- [https://www.coursera.org/course/ml Machine Learning] on [https://www.coursera.org Coursera] by Prof. [http://cs.stanford.edu/people/ang/ Andrew Ng](Stanford University). ([projects/coursera-ml.pdf Statement] of Accomplishment)
-- [http://cse.iitk.ac.in/users/cs671/2013/index.html Natural Language Processing], by Prof. [http://www.cse.iitk.ac.in/users/amit/ Amitabha Mukerjee]
-- Computer Vision and Image Processing, by Prof. [http://www.cse.iitk.ac.in/users/vinaypn/ Vinay Namboodiri]
-- [http://cse.iitk.ac.in/users/cs365/2013/ Artificial Intelligence], by Prof. [http://www.cse.iitk.ac.in/users/amit/ Amitabha Mukerjee]
-
-=== CS Theory
-- Special Topics in Data Compression, by [http://satyadev.in Satyadev Nandakumar]
-- Algorithmic Information Theory, by Prof. [http://satyadev.in Satyadev Nandakumar]
-- Computational Complexity, by Prof. [http://www.cse.iitk.ac.in/users/rtewari/ Raghunath Tewari]
-- Theory of Computation, by Prof. [http://www.cse.iitk.ac.in/users/rtewari Raghunath Tewari]
-- Data Structures and Algorithms, by Prof. [http://www.cse.iitk.ac.in/users/skmehta/ Shashank Mehta]. 
-- Advanced Algorithms, by Prof. [http://www.cse.iitk.ac.in/users/skmehta/ Shashank Mehta]
-- Introduction to Mathematical Logic, by Prof. Somenath Biswas
-- Discrete Mathematics, by Prof. Piyush P. Kurur
+Here is a list of the courses I did at Bach Khoa University and Kyung Hee University.
+=== Machine Learning and Robotics
+- /*Big Data Analysis*/ by Prof. [http://dke.khu.ac.kr/wordpress/professor Young-Koo Lee]
+- /*Mobile robotics*/ by Prof. [http://irms.woobi.co.kr/?pid=professor Soon Geul Lee]
+- /*Data Mining*/ by Prof. Jeong Byeong Soo
+- /*Semantic Web*/ by Prof. [http://wajahat.khu.ac.kr/ Wajahat Ali Khan]
+- /*Machine Learning*/ by Prof. [http://wajahat.khu.ac.kr/ Wajahat Ali Khan]
 
 === Mathematics Courses
-- Probability and Statistics, by Prof. [http://home.iitk.ac.in/~neeraj/ Neeraj Misra]
-- Linear Algebra
-- Real Analysis
-- Complex Analysis
-- Differential Equations
+- /*Graph Theory*/ by Prof. [http://algorithms.khu.ac.kr/professor Chi-Geun Han]
+- /*Queueing Theory*/ by Prof. [https://nguyenhoangtran.github.io/ Nguyen H. Tran]
+- /*Advanced Probability and Stastics*/ by Prof. [https://nguyenhoangtran.github.io/ Nguyen H. Tran]
+- /*Engineering Optimization*/ by Prof. [https://nguyenhoangtran.github.io/ Nguyen H. Tran]
 
-=== Other CS Courses
-- Compiler Design
-- Principles of Database Systems
-- Principles of Programming Languages
-- Computer Networks
-- Operating Systems
-- Programming Tools and Techniques
-- Introduction to Computer Organisation
-- Fundamentals of Computing
+=== Related CS Courses
+- /*Query processing*/ by Prof. [http://dke.khu.ac.kr/wordpress/professor Young-Koo Lee]
+- /*Information Visualization*/ by Prof. [http://www.bdauriol.net/index.html Brian J. d'Auriol]
+- /*Advanced Computer Graphics*/ by Prof. [http://www.bdauriol.net/index.html Brian J. d'Auriol]
+- /*Special Lecture on Creative software*/
+- /*Future Internet*/ by Prof. [http://networking.khu.ac.kr/layouts/net/members/mem01.htm Choong Seon Hong]
+- /*Computer Vision*/ by Prof. [https://scholar.google.co.kr/citations?user=3Pf6C6cAAAAJ&hl= Seungkyu Lee]
+- /*Real-time system*/ by Prof. [http://www.icnslab.net/\#/professor Eui-nam huh]
+- /*Advanced Topic in Information Security*/ by Prof. [https://www.zu.ac.ae/main/en/colleges/colleges/__college_of_technological_innovation/faculty_and_staff/_profiles/Asad_Masood.aspx Asad Masood]
 
 === Some other courses
-- Introduction to Game Theory (IME Department)
-- Philosophical Logic (HSS)
-- Introduction to Logic (HSS)
-- Psychology of Adjustment (HSS)
+- /*Technical Writing and Research Ethics*/ by Prof. [http://www.bdauriol.net/index.html Brian J. d'Auriol]
+- /*Discrete Mathematics*/ (undergraduate course)
+- /*Computer Architecture*/ (undergraduate course)
+- /*Object-Oriented Programming*/ (undergraduate course)
+- /*Data Structure and Algorithms*/ (undergraduate course)
+- /*Discrete Mathematics*/ (undergraduate course)
+- /*Database systems*/ (undergraduate course)
+- /*Operating systems*/ (undergraduate course)
+- /*Discrete Mathematics*/ (undergraduate course)
+- /*Computer networks*/ (undergraduate course)
+- /*Artificial Intelligence*/ (undergraduate course)
+- /*Computer Graphics*/ (undergraduate course)
+- /*Algorithmic Analysis and Design*/ (undergraduate course)
+- /*Distributed Systems*/ (undergraduate course)
+- /*Cryptography and Network Security*/ (undergraduate course)
