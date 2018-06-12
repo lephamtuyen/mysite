@@ -1,10 +1,11 @@
-Nguyen H. Tran
-    Home                [index.html]
-    Biography		    [bio.html]
-
-Research
-    Publications        [publications.html]
-    
-Teaching
-    Courses             [teaching.html]
-
+{{<div class="menu-head">Tuyen P. Le</div>}}
+	Home		[index.html]
+Acads\n
+	Academics	[acads.html]
+	Courses		[courses.html]
+Researches\n
+	Publications	[pubs.html]
+	Projects	[projects.html]
+Others\n
+	Blogs		[blogs.html]
+	Resume 		[Resume_Tuyen.pdf]

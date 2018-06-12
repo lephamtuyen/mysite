@@ -1,0 +1,91 @@
+# jemdoc: menu{MENU}{projects.html}
+= Projects
+
+Research Internships' projects can be found [internships.html here].
+
+== Course Projects
+- *Scene Recognition using mid-level CNN features*
+\n/Course Project, CS676(Computer Vision), Prof. [https://sites.google.com/site/vinaynamboodiri/ Vinay P. Namboodiri], IIT Kanpur (July--Nov 2013)/
+\n \[[projects/scene_recog.pdf report]\]\[[projects/scene_recog_slides.pdf slides]\]
+\nIn this project we tried to explore how the features extracted from the activation of a deep convolutional neural network trained in a supervised fashion on the ImageNet dataset can be used to classify in novel generic tasks such as scene recognition. We use the mid-level features from the pretrained CNN hypothesising that they contain semantic information as relevant for the task of scene recognition. We consider a spatial pyramid kind of setting for the image, which represents ImageNet objects of scale upto the size of the image. We experiment with the features obtained at the first fully connected layer and the last convolutional layer. We show that the features obtained from last convolutional layer work better than the features obtained from first fully connected layer for the task of scene recognition due to the fact that scene require more coarser representaion for classification. In the later part of this project, we also experiment with the deformable parts model and region proposal for scene recognition with mid-level CNN features. The results obtained on MIT-67 Scene Dataset and 15 scene dataset, are quite impressive as compared to the state-of-the-art.
+
+- *Recommendation System for movielens dataset*
+\n/Machine Learning Tools and Techniques Course Project under Prof. Harish Karnick, IIT Kanpur (Sept--Nov 2013)/
+-- Used SVD decomposition of preprocessed User-Movie Matrix to discover the latent features for
+users as well as movies and hence predict ratings of unseen movies for each user given their
+previous ratings, user demographic features and movie genre information.
+-- Pre-processing of User-Movie matrix was done by seeding the unknown ratings using k-NN and
+linear regression based prediction.
+-- Obtained results comparable to the state-of-the-art for /movielens/ dataset.
+
+- *Semantic approach to Summarization*
+\n/CS498 project with Prof. Harish Karnick/
+\n \[[https://github.com/DivyanshuBhartiya/Summarization/ Project on Github]\]
+-- Developed a technique to identify clusters of text segments based on semantic similarities, using
+FrameNet annotation.
+-- The input text was represented as a Semantic Role Labelled text. The clusters were constructed
+based on verb frame similarities, considering both verbs and arguments. Then, the summary
+was generated using a hand-crafted sentence generation technique to represent a cluster of verb
+frames as meaningful sentences.
+-- The summaries hence generated were evaluated by human evaluators on 4 different aspects– Information content, Grammatical Correctness, Abstractness and Expressiveness. The evaluations
+yielded quite good results.
+
+- *Student Response Analysis using Textual Entailment* 
+\n/Natural Language Processing Course Project under Prof. Amitabha Mukerjee (Sept--Nov 2013)/
+\n \[[https://github.com/ashudeep/Student-Response-Analysis Project on Github]\]
+-- Working on a 5-way classification task, recognizing the extent of correctness of a student answer given a question and a few reference answers.
+-- Exploring different text similarity and overlap features to train models on and also trying to use various techniques used in Recognizing Textual Entailment Challenges since 2006.
+
+- *Motion Tracking using Occlusion States*\n
+/Artificial Intelligence Course Project under Prof. Amitabha Mukerjee (Mar--Apr 2013)/
+-- Formalized a transition graph for a set of states that define occlusions in multi-object systems
+-- Theoritically proved the validity of transitions using the logical formulations as given in the definitions and verified the transitions on real-world visual scenes and also tried mining events from a real world scene using signature transition sequences.    
+
+- *Compiler for Ada programming language*\n
+/Compiler Design Course Project under Prof. Sanjeev K Aggarwal (Jan--Apr 2013)/
+\n \[[https://github.com/ashudeep/ada-compiler/ Project on Github]\]
+-- Implemented a compiler for Ada programming language in Python with MIPS code as the target
+-- Basic programming constructs, support for arrays, records, nested / recursive / overloaded procedures / functions, packages, type extension, dynamic memory allocation, Polymorphism, stream I/O etc.
+
+- *Books and Research Paper Database*\n
+/Principles of Database Management Systems Course Project under Prof. Harish Karnick(Mar--Apr 2013)/
+--  Built an easily maintainable and flexible bibliographic database of Books and Research Papers, keeping in mind the dependency constraints as well as efficiency considerations.
+-- Added the functionality to search through the meta-data for each of these, as well as the keywords inside the texts using single/multiple search fields.
+-- Also added the functionality to add new and update existing entries in a record.
+ 
+- *Extension of PintOS*\n
+/Operating Systems Course Project under Prof. Subhajit Roy (Aug--Nov 2012)/
+-- This project aimed at providing various functionalities to Pintos, simple instructional operating system framework for the 80x86 architecture.
+-- Simulated and analyzed various system calls and scheduling algorithms using operating systems concepts.
+-- Implemented POSIX message queues that allow processes to exchange data in the form of messages.
+
+
+- *Implementation of Address Resolution Protocol*\n
+/Computer Networks course project under Prof. Dheeraj Sanghi (Oct--Nov 2012)/
+-- Implemented the request and reply implementation for the Address Resolution Protocol, which lies in the Link Layer of the Internet Protocol Suite.
+-- The major components were- request & reply packet handling and the ARP cache tables.
+-- The project was coded in C using Socket Programming with ~1000 LOC.
+
+- *A simplified CPU*\n
+/Computer Organization Course Project under Prof. Amey Karkare (Sept--Oct 2011)/
+-- Implemented a simplified CPU containing an ALU, a register file and a data path for R-Type instructions on a XILINX SPARTAN 3 FPGA board.
+-- The processor controlled the access and read/write operations on register file, and the ALU to carry out basic arithmetic operations on the registers.
+-- Input was fed through switches and output as 7-Segment LED Display on the FPGA. BlueSpec Verilog was used to program the FPGA.
+
+
+== Term Paper Presentations and Paper Reviews
+- *Grounded Language Learning from Video Described with Sentences*
+-- Reviewed and presented an ACL 2013 paper on a work which describes an approach to learn sentence descriptions for videos.
+-- Links for: [http://home.iitk.ac.in/~ashudeep/cs671/hw3/ashudeep.bib bib annote], [http://home.iitk.ac.in/~ashudeep/cs671/hw3/review.pdf paper review] and [http://home.iitk.ac.in/~ashudeep/cs671/hw3/ashudeep-hw3.pdf presentation].
+
+- *Slepian-Wolf Encoding*
+-- Presented an encoding method in Distributed Source Coding, which models the correlation between multiple sources at the decoder side together with channel codes.
+-- Slides can be found [projects/slides/cs687.pdf here].
+
+- [http://home.iitk.ac.in/~ashudeep/cs365/hw2/index.html *Interval-Based Possibilistic Logic*]
+-- Reviewed and presented an IJCAI 2011 paper on Interval-based possibilistic logic which proposed a general framework used to deal with logical reasoning in case of inconsistent knowledge bases.
+-- The paper review can be found [http://home.iitk.ac.in/~ashudeep/cs365/hw2/hue_ijcai_review.pdf here].
+
+- *The Happiness Advantage* (Benefitting from Positive Psychology)
+-- Discussed how the formula "Happiness follows Success" is broken and how it works backwards.
+-- Slides can be found [projects/slides/psy451.pdf here].

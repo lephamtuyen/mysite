@@ -9,10 +9,20 @@ table#tlayout {
 body {
 	background: white;
 	/*font-family: 'Ubuntu', sans-serif;*/
-	font-family: "Verdana", Geneva, sans-serif;
-	font-size: 0.7em;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.25em;
 	padding-bottom: 8px;
 	margin: 0;
+    -webkit-animation-delay: 0.1s;
+    -webkit-animation-name: fontfix;
+    -webkit-animation-duration: 0.1s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes fontfix {
+    from { opacity: 1; }
+    to   { opacity: 1; }
 }
 
 #layout-menu {
@@ -81,12 +91,11 @@ a:hover {
 
 div.menu-category {
 	border-bottom: 1.0px solid #001;
-	border-radius: 50%;
 	margin-top: 0.0em;
 	padding-top: 0.0em;
 	margin-left: 0.20em;
-	margin-bottom: 0.0em;
-	font-size: 100%;
+	margin-bottom: 0.3em;
+	font-size: 95%;
 	text-shadow: 1px 1px 1px #aaa;
 }
 
@@ -97,13 +106,15 @@ div.menu-head {
 	padding-bottom: 0.0em;
 	margin-bottom: 0.0em;
 	font-family: 'Dawning of a New Day', cursive;
-	font-size: 165%;
-	text-shadow: 1px 1px 1px #aaa;
+	font-size: 135%;
+	text-shadow: 1px 1px 0px #aaa;
 }
 
 div.menu-item {
 	padding-left: 16px;
 	text-indent: -16px;
+	font-size: 80%;
+	font-weight: bold;
 }
 
 div#toptitle {

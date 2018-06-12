@@ -1,0 +1,44 @@
+# jemdoc: menu{MENU}{courses.html}
+= Courses
+
+Here is a list of most of the courses I did at Bach Khoa University and Kyung Hee University.
+=== Machine Learning and Artificial Intelligence
+- [http://cse.iitk.ac.in/users/hk/mfml/ Mathematics for Machine Learning], by Prof. Harish Karnick and Dr. [http://research.microsoft.com/en-us/people/prajain/ Prateek Jain] (Microsoft Research)
+- [http://cse.iitk.ac.in/users/hk/cs771/ Machine Learning Tools and Techniques], by Prof. Harish Karnick
+- [https://www.coursera.org/course/ml Machine Learning] on [https://www.coursera.org Coursera] by Prof. [http://cs.stanford.edu/people/ang/ Andrew Ng](Stanford University). ([projects/coursera-ml.pdf Statement] of Accomplishment)
+- [http://cse.iitk.ac.in/users/cs671/2013/index.html Natural Language Processing], by Prof. [http://www.cse.iitk.ac.in/users/amit/ Amitabha Mukerjee]
+- Computer Vision and Image Processing, by Prof. [http://www.cse.iitk.ac.in/users/vinaypn/ Vinay Namboodiri]
+- [http://cse.iitk.ac.in/users/cs365/2013/ Artificial Intelligence], by Prof. [http://www.cse.iitk.ac.in/users/amit/ Amitabha Mukerjee]
+
+=== CS Theory
+- Special Topics in Data Compression, by [http://satyadev.in Satyadev Nandakumar]
+- Algorithmic Information Theory, by Prof. [http://satyadev.in Satyadev Nandakumar]
+- Computational Complexity, by Prof. [http://www.cse.iitk.ac.in/users/rtewari/ Raghunath Tewari]
+- Theory of Computation, by Prof. [http://www.cse.iitk.ac.in/users/rtewari Raghunath Tewari]
+- Data Structures and Algorithms, by Prof. [http://www.cse.iitk.ac.in/users/skmehta/ Shashank Mehta]. 
+- Advanced Algorithms, by Prof. [http://www.cse.iitk.ac.in/users/skmehta/ Shashank Mehta]
+- Introduction to Mathematical Logic, by Prof. Somenath Biswas
+- Discrete Mathematics, by Prof. Piyush P. Kurur
+
+=== Mathematics Courses
+- Probability and Statistics, by Prof. [http://home.iitk.ac.in/~neeraj/ Neeraj Misra]
+- Linear Algebra
+- Real Analysis
+- Complex Analysis
+- Differential Equations
+
+=== Other CS Courses
+- Compiler Design
+- Principles of Database Systems
+- Principles of Programming Languages
+- Computer Networks
+- Operating Systems
+- Programming Tools and Techniques
+- Introduction to Computer Organisation
+- Fundamentals of Computing
+
+=== Some other courses
+- Introduction to Game Theory (IME Department)
+- Philosophical Logic (HSS)
+- Introduction to Logic (HSS)
+- Psychology of Adjustment (HSS)

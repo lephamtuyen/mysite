@@ -1,0 +1,224 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Projects</title>
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category"><div class="menu-head">Tuyen P. Le</div></div>
+<div class="menu-item"><a href="index.html">Home</a></div>
+<div class="menu-category">Acads<br /></div>
+<div class="menu-item"><a href="acads.html">Academics</a></div>
+<div class="menu-item"><a href="courses.html">Courses</a></div>
+<div class="menu-category">Researches<br /></div>
+<div class="menu-item"><a href="pubs.html">Publications</a></div>
+<div class="menu-item"><a href="projects.html" class="current">Projects</a></div>
+<div class="menu-category">Others<br /></div>
+<div class="menu-item"><a href="extracurrics.html">Blogs</a></div>
+<div class="menu-item"><a href="Resume_Tuyen.pdf">Resume</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Projects</h1>
+</div>
+<p>Research Internships&rsquo; projects can be found <a href="internships.html">here</a>.</p>
+<h2>Course Projects</h2>
+<ul>
+<li><p><b>Scene Recognition using mid-level CNN features</b>
+<br /><i>Course Project, CS676(Computer Vision), Prof. <a href="https://sites.google.com/site/vinaynamboodiri/">Vinay P. Namboodiri</a>, IIT Kanpur (July&ndash;Nov 2013)</i>
+<br /> [<a href="projects/scene_recog.pdf">report</a>][<a href="projects/scene_recog_slides.pdf">slides</a>]
+<br />In this project we tried to explore how the features extracted from the activation of a deep convolutional neural network trained in a supervised fashion on the ImageNet dataset can be used to classify in novel generic tasks such as scene recognition. We use the mid-level features from the pretrained CNN hypothesising that they contain semantic information as relevant for the task of scene recognition. We consider a spatial pyramid kind of setting for the image, which represents ImageNet objects of scale upto the size of the image. We experiment with the features obtained at the first fully connected layer and the last convolutional layer. We show that the features obtained from last convolutional layer work better than the features obtained from first fully connected layer for the task of scene recognition due to the fact that scene require more coarser representaion for classification. In the later part of this project, we also experiment with the deformable parts model and region proposal for scene recognition with mid-level CNN features. The results obtained on MIT-67 Scene Dataset and 15 scene dataset, are quite impressive as compared to the state-of-the-art.</p>
+</li>
+</ul>
+<ul>
+<li><p><b>Recommendation System for movielens dataset</b>
+<br /><i>Machine Learning Tools and Techniques Course Project under Prof. Harish Karnick, IIT Kanpur (Sept&ndash;Nov 2013)</i></p>
+<ul>
+<li><p>Used SVD decomposition of preprocessed User-Movie Matrix to discover the latent features for
+users as well as movies and hence predict ratings of unseen movies for each user given their
+previous ratings, user demographic features and movie genre information.</p>
+</li>
+<li><p>Pre-processing of User-Movie matrix was done by seeding the unknown ratings using k-NN and
+linear regression based prediction.</p>
+</li>
+<li><p>Obtained results comparable to the state-of-the-art for <i>movielens</i> dataset.</p>
+</li>
+</ul>
+
+</li>
+</ul>
+<ul>
+<li><p><b>Semantic approach to Summarization</b>
+<br /><i>CS498 project with Prof. Harish Karnick</i>
+<br /> [<a href="https://github.com/DivyanshuBhartiya/Summarization/">Project on Github</a>]</p>
+<ul>
+<li><p>Developed a technique to identify clusters of text segments based on semantic similarities, using
+FrameNet annotation.</p>
+</li>
+<li><p>The input text was represented as a Semantic Role Labelled text. The clusters were constructed
+based on verb frame similarities, considering both verbs and arguments. Then, the summary
+was generated using a hand-crafted sentence generation technique to represent a cluster of verb
+frames as meaningful sentences.</p>
+</li>
+<li><p>The summaries hence generated were evaluated by human evaluators on 4 different aspects– Information content, Grammatical Correctness, Abstractness and Expressiveness. The evaluations
+yielded quite good results.</p>
+</li>
+</ul>
+
+</li>
+</ul>
+<ul>
+<li><p><b>Student Response Analysis using Textual Entailment</b> 
+<br /><i>Natural Language Processing Course Project under Prof. Amitabha Mukerjee (Sept&ndash;Nov 2013)</i>
+<br /> [<a href="https://github.com/ashudeep/Student-Response-Analysis">Project on Github</a>]</p>
+<ul>
+<li><p>Working on a 5-way classification task, recognizing the extent of correctness of a student answer given a question and a few reference answers.</p>
+</li>
+<li><p>Exploring different text similarity and overlap features to train models on and also trying to use various techniques used in Recognizing Textual Entailment Challenges since 2006.</p>
+</li>
+</ul>
+
+</li>
+</ul>
+<ul>
+<li><p><b>Motion Tracking using Occlusion States</b><br />
+<i>Artificial Intelligence Course Project under Prof. Amitabha Mukerjee (Mar&ndash;Apr 2013)</i></p>
+<ul>
+<li><p>Formalized a transition graph for a set of states that define occlusions in multi-object systems</p>
+</li>
+<li><p>Theoritically proved the validity of transitions using the logical formulations as given in the definitions and verified the transitions on real-world visual scenes and also tried mining events from a real world scene using signature transition sequences.    </p>
+</li>
+</ul>
+
+</li>
+</ul>
+<ul>
+<li><p><b>Compiler for Ada programming language</b><br />
+<i>Compiler Design Course Project under Prof. Sanjeev K Aggarwal (Jan&ndash;Apr 2013)</i>
+<br /> [<a href="https://github.com/ashudeep/ada-compiler/">Project on Github</a>]</p>
+<ul>
+<li><p>Implemented a compiler for Ada programming language in Python with MIPS code as the target</p>
+</li>
+<li><p>Basic programming constructs, support for arrays, records, nested <i> recursive </i> overloaded procedures <i> functions, packages, type extension, dynamic memory allocation, Polymorphism, stream I</i>O etc.</p>
+</li>
+</ul>
+
+</li>
+</ul>
+<ul>
+<li><p><b>Books and Research Paper Database</b><br />
+<i>Principles of Database Management Systems Course Project under Prof. Harish Karnick(Mar&ndash;Apr 2013)</i></p>
+<ul>
+<li><p>Built an easily maintainable and flexible bibliographic database of Books and Research Papers, keeping in mind the dependency constraints as well as efficiency considerations.</p>
+</li>
+<li><p>Added the functionality to search through the meta-data for each of these, as well as the keywords inside the texts using single/multiple search fields.</p>
+</li>
+<li><p>Also added the functionality to add new and update existing entries in a record.</p>
+</li>
+</ul>
+
+</li>
+</ul>
+<ul>
+<li><p><b>Extension of PintOS</b><br />
+<i>Operating Systems Course Project under Prof. Subhajit Roy (Aug&ndash;Nov 2012)</i></p>
+<ul>
+<li><p>This project aimed at providing various functionalities to Pintos, simple instructional operating system framework for the 80x86 architecture.</p>
+</li>
+<li><p>Simulated and analyzed various system calls and scheduling algorithms using operating systems concepts.</p>
+</li>
+<li><p>Implemented POSIX message queues that allow processes to exchange data in the form of messages.</p>
+</li>
+</ul>
+
+</li>
+</ul>
+<ul>
+<li><p><b>Implementation of Address Resolution Protocol</b><br />
+<i>Computer Networks course project under Prof. Dheeraj Sanghi (Oct&ndash;Nov 2012)</i></p>
+<ul>
+<li><p>Implemented the request and reply implementation for the Address Resolution Protocol, which lies in the Link Layer of the Internet Protocol Suite.</p>
+</li>
+<li><p>The major components were- request &amp; reply packet handling and the ARP cache tables.</p>
+</li>
+<li><p>The project was coded in C using Socket Programming with &nbsp;1000 LOC.</p>
+</li>
+</ul>
+
+</li>
+</ul>
+<ul>
+<li><p><b>A simplified CPU</b><br />
+<i>Computer Organization Course Project under Prof. Amey Karkare (Sept&ndash;Oct 2011)</i></p>
+<ul>
+<li><p>Implemented a simplified CPU containing an ALU, a register file and a data path for R-Type instructions on a XILINX SPARTAN 3 FPGA board.</p>
+</li>
+<li><p>The processor controlled the access and read/write operations on register file, and the ALU to carry out basic arithmetic operations on the registers.</p>
+</li>
+<li><p>Input was fed through switches and output as 7-Segment LED Display on the FPGA. BlueSpec Verilog was used to program the FPGA.</p>
+</li>
+</ul>
+
+</li>
+</ul>
+<h2>Term Paper Presentations and Paper Reviews</h2>
+<ul>
+<li><p><b>Grounded Language Learning from Video Described with Sentences</b></p>
+<ul>
+<li><p>Reviewed and presented an ACL 2013 paper on a work which describes an approach to learn sentence descriptions for videos.</p>
+</li>
+<li><p>Links for: <a href="http://home.iitk.ac.in/~ashudeep/cs671/hw3/ashudeep.bib">bib annote</a>, <a href="http://home.iitk.ac.in/~ashudeep/cs671/hw3/review.pdf">paper review</a> and <a href="http://home.iitk.ac.in/~ashudeep/cs671/hw3/ashudeep-hw3.pdf">presentation</a>.</p>
+</li>
+</ul>
+
+</li>
+</ul>
+<ul>
+<li><p><b>Slepian-Wolf Encoding</b></p>
+<ul>
+<li><p>Presented an encoding method in Distributed Source Coding, which models the correlation between multiple sources at the decoder side together with channel codes.</p>
+</li>
+<li><p>Slides can be found <a href="projects/slides/cs687.pdf">here</a>.</p>
+</li>
+</ul>
+
+</li>
+</ul>
+<ul>
+<li><p><a href="http://home.iitk.ac.in/~ashudeep/cs365/hw2/index.html"><b>Interval-Based Possibilistic Logic</b></a></p>
+<ul>
+<li><p>Reviewed and presented an IJCAI 2011 paper on Interval-based possibilistic logic which proposed a general framework used to deal with logical reasoning in case of inconsistent knowledge bases.</p>
+</li>
+<li><p>The paper review can be found <a href="http://home.iitk.ac.in/~ashudeep/cs365/hw2/hue_ijcai_review.pdf">here</a>.</p>
+</li>
+</ul>
+
+</li>
+</ul>
+<ul>
+<li><p><b>The Happiness Advantage</b> (Benefitting from Positive Psychology)</p>
+<ul>
+<li><p>Discussed how the formula &ldquo;Happiness follows Success&rdquo; is broken and how it works backwards.</p>
+</li>
+<li><p>Slides can be found <a href="projects/slides/psy451.pdf">here</a>.</p>
+</li>
+</ul>
+
+</li>
+</ul>
+<div id="footer">
+<div id="footer-text">
+Page generated 2018-06-12 17:04:40 KST, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>
