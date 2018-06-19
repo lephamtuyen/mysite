@@ -6,3 +6,34 @@
 == Intern Projects
 
 == Courses Projects
+
+- *Tracking video's object using two methods: mean shift and lucas kanade*
+-- /*Computer Vision*/ by Prof. [https://scholar.google.co.kr/citations?user=3Pf6C6cAAAAJ&hl= Seungkyu Lee]
+-- Implement two object tracking methods: mean shift and lucas kanade.
+-- Report and matlab code can be found [https://github.com/lephamtuyen/computer_vision_project here].
+
+- *Health monitoring application*
+-- /*Future Internet*/ by Prof. [http://networking.khu.ac.kr/layouts/net/members/mem01.htm Choong Seon Hong]
+-- Application features:
+--- IBM Internet of Thing, turn your mobile device into a sensor
+--- MQTT: A machine-to-machine (M2M)/"Internet of Things" connectivity protocol designed as an extremely lightweight publish/subscribe messaging transport. I use free MQTT server iot.eclipse.org, port 1883
+--- Measure heartbeat rate using iPhone camera.
+--- There have 2 iOS Applications:
+---- Patient application is installed on patient's iPhone. It allows:
+----- measure heartbeat and sent it to a doctor.
+----- send GPS Coordinates to the doctor.
+----- send an emergency call to the doctor.
+----- receive recommendations from the doctor.
+---- Doctor application is installed on doctor's iPhone. It allows:
+----- visualize heartbeat rate in a graph.
+----- show location of the patient on the map.
+----- show an alert to doctor after patient made an emergency call.
+---- Supported iOS version: 8.3
+---- Supported iPhone: iPhone 5/5s
+-- Report and code can be found [https://github.com/lephamtuyen/healthmonitoring here].
+
+- *Heath Insurance Coverage Prediction based on the 2013 US Census Data*
+-- /*Big Data Analysis*/ by Prof. [http://dke.khu.ac.kr/wordpress/professor Young-Koo Lee]
+-- Find models which can predict the healthcare coverage based on US Census Data 2013 (using R language)
+-- Large scale the model using Spark Apache
+-- Report and code can be found [https://github.com/lephamtuyen/big_data_project here].
