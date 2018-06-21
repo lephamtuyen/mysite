@@ -5,13 +5,36 @@
 
 == Intern Projects
 
+~
+- *Build a iOS framework (2015)*
+-- Intern project at [http://www.recobell.com/rb/ Recobell] which is a startup belong to [http://yellomobile.com Yellow Mobile]. (2015)
+-- Build an iOS framework (library) which can be used to many ecommerge applications of company \[[projects/framework.pdf Docs]\]
+-- Code can be found [https://github.com/lephamtuyen/build_framework here].
+~
+
+~
+- *Rasterizing the PCB for printing*
+-- Intern project at [http://www.polliwogeda.com/xe_new/ Polliwog Corp.] (Winter 2014)
+-- More details can be found [projects/raster.html here].
+~
+
+~
+- *Find a shortest path in a Printed Circuit Board (PCB)*
+-- Intern project at [http://www.polliwogeda.com/xe_new/ Polliwog Corp.] (Summer 2014)
+-- The final goal is to find a shortest path between two points in a PCB
+-- More details can be found [projects/shortest_path.html here].
+~
+
 == Courses Projects
 
+~
 - *Tracking video's object using two methods: mean shift and lucas kanade*
 -- /*Computer Vision*/ by Prof. [https://scholar.google.co.kr/citations?user=3Pf6C6cAAAAJ&hl= Seungkyu Lee]
 -- Implement two object tracking methods: mean shift and lucas kanade.
 -- Report and matlab code can be found [https://github.com/lephamtuyen/computer_vision_project here].
+~
 
+~
 - *Health monitoring application*
 -- /*Future Internet*/ by Prof. [http://networking.khu.ac.kr/layouts/net/members/mem01.htm Choong Seon Hong]
 -- Application features:
@@ -31,9 +54,12 @@
 ---- Supported iOS version: 8.3
 ---- Supported iPhone: iPhone 5/5s
 -- Report and code can be found [https://github.com/lephamtuyen/healthmonitoring here].
+~
 
+~
 - *Heath Insurance Coverage Prediction based on the 2013 US Census Data*
 -- /*Big Data Analysis*/ by Prof. [http://dke.khu.ac.kr/wordpress/professor Young-Koo Lee]
 -- Find models which can predict the healthcare coverage based on US Census Data 2013 (using R language)
 -- Large scale the model using Spark Apache
 -- Report and code can be found [https://github.com/lephamtuyen/big_data_project here].
+~

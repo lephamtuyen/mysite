@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)https://cims.nyu.edu/~sainbar/selfplay/ -->
+<html lang="en" class="gr__cims_nyu_edu"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Sainbayar Sukhbaatar personal website">
+	<meta name="author" content="Sainbayar Sukhbaatar">
+
+	<title>SelfPlay</title>
+
+	<!-- Bootstrap core CSS -->
+	<link href="./template_project_files/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="./template_project_files/bootstrap-social.css">
+	<style type="text/css">
+	</style>
+</head>
+<body data-gr-c-s-loaded="true">
+	<div class="container">
+		<h1 class="text-center">
+			Intrinsic Motivation and Automatic Curricula via Asymmetric Self-Play<br>
+			<small>Sainbayar Sukhbaatar, Zeming Lin, Ilya Kostrikov, Gabriel Synnaeve, Arthur Szlam, Rob Fergus
+</small>
+            <br>
+            <br>
+            <img src="./template_project_files/model.png">
+		</h1>
+		<hr>
+		<p class="lead">
+		  We describe a simple scheme that allows an agent to learn about its environment in an unsupervised manner. Our scheme pits two versions of the same agent, Alice and Bob, against one another. Alice proposes a task for Bob to complete; and then Bob attempts to complete the task. In this work we will focus on two kinds of environments: (nearly) reversible environments and environments that can be reset. Alice will "propose" the task by doing a sequence of actions and then Bob must undo or repeat them, respectively. Via an appropriate reward structure, Alice and Bob automatically generate a curriculum of exploration, enabling unsupervised training of the agent. When Bob is deployed on an RL task within the environment, this unsupervised training reduces the number of supervised episodes needed to learn, and in some cases converges to a higher reward.
+		</p>
+		<p class="text-center">
+			<a class="btn btn-primary btn-lg" href="https://arxiv.org/pdf/1703.05407" target="_blank">PDF</a>
+			<a class="btn btn-success btn-lg" href="https://cims.nyu.edu/~sainbar/selfplay/selfplay_poster.pdf" target="_blank">Poster</a>
+			<a class="btn btn-default btn-lg" href="https://github.com/tesatory/selfplay" target="_blank">Code</a>
+			<a class="btn btn-info btn-lg" href="https://youtu.be/5dNAnCYBFN4" target="_blank">Talk</a>
+		</p>
+		<hr>
+		<div class="text-center">
+		<iframe width="560" height="315" src="./template_project_files/EHHiFwStqaA.html" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+		</div>
+		<hr>
+	</div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script async="" src="./template_project_files/analytics.js"></script><script src="./template_project_files/jquery.min.js"></script>
+    <script src="./template_project_files/bootstrap.min.js"></script>
+
+    <!-- google analyitcs -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-37493933-2', 'auto');
+    ga('send', 'pageview');
+
+    </script>
+
+
+</body></html>
