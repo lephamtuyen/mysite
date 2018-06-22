@@ -3,6 +3,36 @@
 
 == Research Projects
 
+~
+- *Deep Hierarchical Reinforcement Learning Algorithm in Partially Observable Markov Decision Processes*
+-- Accepted to publish on [http://ieeeaccess.ieee.org/ IEEE Access Journal] (SCIE)
+-- More details can be found [projects/hdrqn.html here].
+~
+
+~
+- *Importance sampling policy gradient algorithms in reproducing kernel Hilbert space*
+-- Published on [https://link.springer.com/journal/10462 Artificial Intelligence Review] (SCI)
+-- More details can be found [projects/rkhs.html here].
+~
+
+~
+- *Univector field method-based multi-agent navigation for pursuit problem in obstacle environments*
+-- Published on [https://link.springer.com/journal/11771 Journal of Central South University] (SCIE)
+-- More details can be found [projects/pursuit.html here].
+~
+
+~
+- *Applied deep reinforcement learning algorithms to control the bicycle*
+-- Presented at [http://www.urai2017.org/ URAI 2017] (IEEE)
+-- More details can be found [projects/bicycle.html here].
+~
+
+~
+- *Applied deep reinforcement learning algorithms to control a underactuated ship*
+-- Presented at [http://www.mfi2017.org/ MFI 2017] (IEEE)
+-- More details can be found [projects/ship.html here].
+~
+
 == Intern Projects
 
 ~

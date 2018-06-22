@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" class="gr__cims_nyu_edu"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Tuyen P. Le personal website">
+	<meta name="author" content="Tuyen P. Le">
+
+	<title>Importance Sampling Policy Gradient Algorithms in RKHS</title>
+
+	<!-- Bootstrap core CSS -->
+	<link href="./rkhs/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="./rkhs/bootstrap-social.css">
+	<style type="text/css">
+	</style>
+	<style>
+  	* {
+   		margin: 0;
+   		padding: 0;
+  	}
+  	.imgbox {
+   		display: grid;
+   		height: 100%;
+  	}
+  	.center-fit {
+   		max-width: 100%;
+   		max-height: 100vh;
+   		margin: auto;
+  	}
+  	</style>
+</head>
+<body data-gr-c-s-loaded="true">
+	<div class="container">
+		<h1 class="text-center">
+			Importance Sampling Policy Gradient Algorithms in Reproducing Kernel Hilbert Space<br>
+			<small>Tuyen P. Le and Ngo Anh Vien and P.Marlith Jaramillo and TaeChoong Chung</small>
+            <br>
+            <br>
+            <img class="center-fit" src="./rkhs/abstract.png">
+		</h1>
+		<hr>
+		<p class="lead">
+		  Modeling policies in Reproducing Kernel Hilbert Space (RKHS) offers a very flexible and powerful new family of policy gradient algorithms called RKHS policy gradient algorithms. They are designed to optimize over a space of very high or infinite dimensional policies. As a matter of fact, they are known to suffer from a large variance problem. This critical issue comes from the fact that updating the current policy is based on a functional gradient that does not exploit all old episodes sampled by previous policies. In this paper, we introduce a generalized RKHS policy gradient algorithm that integrates the following important ideas: i) policy modeling in RKHS; ii) normalized importance sampling, which helps reduce the estimation variance by reusing previously sampled episodes in a principled way; and iii) regularization terms, which avoid updating the policy too over-fit to sampled data. In the experiment section, we provide an analysis of the proposed algorithms through bench-marking domains. The experiment results show that the proposed algorithm can still enjoy a powerful policy modeling in RKHS and achieve more data-efficiency.
+		</p>
+		<p class="text-center">
+			<a class="btn btn-primary btn-lg" href="./rkhs/manuscript.pdf" target="_blank">PDF</a>
+			<a class="btn btn-default btn-lg" href="https://" target="_blank">Code</a>
+			<a class="btn btn-info btn-lg" href="https://link.springer.com/article/10.1007/s10462-017-9579-x" target="_blank">Cite</a>
+		</p>
+	</div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script async="" src="./rkhs/analytics.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="./rkhs/bootstrap.min.js"></script>
+
+    <!-- google analyitcs -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-89717371-1', 'auto');
+    ga('send', 'pageview');
+
+    </script>
+
+
+</body></html>
