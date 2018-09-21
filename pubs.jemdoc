@@ -4,8 +4,7 @@
 
 == Journal Papers
 . Hoang Huu Viet, /*Tuyen P. Le*/, and TaeChoong Chung. "A Shortlist-based Bidirectional Local Search for the Stable Marriage Problem" Applied Intelligence (Major Revision) \[*SCI*\]
-. /*Tuyen P. Le*/, Vien Anh Ngo, Md Abu Layek, and TaeChoong Chung. "Deep Hierarchical Reinforcement Learning Algorithm in Partially Observable Markov Decision Processes" IEEE Access (Accepted) \[*SCIE*\]\[[https://arxiv.org/abs/1805.04419 *Link*]\]
-. Md Abu Layek, Tien-Dung Nguyen, /*Tuyen P. Le*/, TaeChoong Chung, and Eui-Nam Huh. "Measuring Actual Distances Between Objects from a Single Image by Automatic Detection and Perspective Correction" IEEE Access (In Review) \[*SCIE*\]
+. /*Tuyen P. Le*/, Vien Anh Ngo, Md Abu Layek, and TaeChoong Chung. "A Deep Hierarchical Reinforcement Learning Algorithm in Partially Observable Markov Decision Processes" IEEE Access (Accepted) \[*SCIE*\]\[[https://ieeexplore.ieee.org/document/8421749 *Link*]\]
 . /*Tuyen P. Le*/, Vien Anh Ngo, P. Marlith Jaramillo, and TaeChoong Chung. "Importance sampling policy gradient algorithms in reproducing kernel Hilbert space." Artificial Intelligence Review (2017): 1-21. \[*SCI*\]\[[https://link.springer.com/article/10.1007/s10462-017-9579-x *Link*]\]
 . /*Tuyen P. Le*/, Hoang Huu Viet, Sang Hyeok An, Seung Gwan Lee, Dong-Han Kim, and Tae Choong Chung: "Univector field method-based multi-agent navigation for pursuit problem in obstacle environments." Journal of Central South University 24, no. 4 (2017): 1002-1012. \[*SCIE*\]\[[https://link.springer.com/article/10.1007/s11771-017-3502-0 *Link*]\]
 
@@ -13,7 +12,7 @@
 . /*Tuyen P. Le*/, Abu Layek, Ngo Anh Vien, and TaeChoong Chung. "Deep reinforcement learning algorithms for steering an underactuated ship." In Multisensor Fusion and Integration for Intelligent Systems (MFI), 2017 IEEE International Conference on, pp. 602-607. IEEE, 2017.\[[https://ieeexplore.ieee.org/abstract/document/8170388/ *Link*]\]
 . Viet-Hung Dang, Ngo Anh Vien, /*Tuyen P. Le*/, and Taechoong Chung. "A Functional Optimization Method for Continuous Domains." In International Conference on Industrial Networks and Intelligent Systems, pp. 254-265. Springer, Cham, 2017.\[[https://link.springer.com/chapter/10.1007/978-3-319-74176-5_22 *Link*]\]
 . /*Tuyen P. Le*/ and TaeChoong Chung. "Controlling bicycle using deep deterministic policy gradient algorithm." In Ubiquitous Robots and Ambient Intelligence (URAI), 2017 14th International Conference on, pp. 413-417. IEEE, 2017.\[[https://ieeexplore.ieee.org/document/7992765/ *Link*]\]
-. Layek, Md Abu, Ngo Quang Thai, Md Alamgir Hossain, Ngo Thien Thu, /*Tuyen P. Le*/, Ashis Talukder, TaeChoong Chung, and Eui-Nam Huh. "Performance analysis of H. 264, H. 265, VP9 and AV1 video encoders." In Network Operations and Management Symposium (APNOMS), 2017 19th Asia-Pacific, pp. 322-325. IEEE, 2017.\[[https://ieeexplore.ieee.org/abstract/document/8094162/ *Link*]\]
+. Md Abu Layek, Ngo Quang Thai, Md Alamgir Hossain, Ngo Thien Thu, /*Tuyen P. Le*/, Ashis Talukder, TaeChoong Chung, and Eui-Nam Huh. "Performance analysis of H. 264, H. 265, VP9 and AV1 video encoders." In Network Operations and Management Symposium (APNOMS), 2017 19th Asia-Pacific, pp. 322-325. IEEE, 2017.\[[https://ieeexplore.ieee.org/abstract/document/8094162/ *Link*]\]
 
 == Domestic Conference Papers
 . Minh N. H. Nguyen, /*Tuyen P. Le*/, Nguyen H. Tran, Choong Seon Hong. (2017). Deep Reinforcement Learning based Smart Building Energy Management. KSC2017, 871-873.\[[http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07322327 *Link*]\]
