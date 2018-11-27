@@ -4,15 +4,20 @@
 == Ongoing Projects
 
 ~
-- *Conquer*
--- Accepted to publish on [http://ieeeaccess.ieee.org/ IEEE Access Journal] (SCIE)
--- More details can be found [projects/hdrqn.html here].
+- *Develop [https://www.youtube.com/watch?v=reyCgdOuSWo Ballbot]'s Controller using reinforcement learning methods*
+-- The ballbot is built by Do Van Thach, a PhD student at Kyung Hee university
+-- Trying to use various reinforcement learning approaches to develop/enhance the controller of Ballbot
+-- Potential approaches: meta learning, policy search, PID-based reinfrocement learning, ...
 ~
 
 ~
-- *Conquer*
--- Accepted to publish on [http://ieeeaccess.ieee.org/ IEEE Access Journal] (SCIE)
--- More details can be found [projects/hdrqn.html here].
+- *Keep track achievements from Google DeepMind, OpenAI in AI Games*
+-- AI has already beat humans at Chess and Go
+-- The next level of AI will be high-quality video games such as [https://blog.openai.com/openai-five/ DotA 2], [https://github.com/deepmind/pysc2 Starcraft II]. Let's see!
+-- [https://blog.openai.com/openai-five/ DotA 2] and [https://github.com/deepmind/pysc2 Starcraft II] is more difficult than Chess or Go due to:
+--- A lot of states and actions
+--- The AI agent plans under partial observability
+--- Multiple agent
 ~
 
 == Research Projects
@@ -30,21 +35,9 @@
 ~
 
 ~
-- *Univector field method-based multi-agent navigation for pursuit problem in obstacle environments*
--- Published on [https://link.springer.com/journal/11771 Journal of Central South University] (SCIE)
--- More details can be found [projects/pursuit.html here].
-~
-
-~
 - *Applied deep reinforcement learning algorithms to control the bicycle*
 -- Presented at [http://www.urai2017.org/ URAI 2017] (IEEE)
 -- More details can be found [projects/bicycle.html here].
-~
-
-~
-- *Applied deep reinforcement learning algorithms to control a underactuated ship*
--- Presented at [http://www.mfi2017.org/ MFI 2017] (IEEE)
--- More details can be found [projects/ship.html here].
 ~
 
 == Intern Projects
