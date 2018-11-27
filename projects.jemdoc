@@ -1,6 +1,20 @@
 # jemdoc: menu{MENU}{projects.html}
 = Projects
 
+== Ongoing Projects
+
+~
+- *Conquer*
+-- Accepted to publish on [http://ieeeaccess.ieee.org/ IEEE Access Journal] (SCIE)
+-- More details can be found [projects/hdrqn.html here].
+~
+
+~
+- *Conquer*
+-- Accepted to publish on [http://ieeeaccess.ieee.org/ IEEE Access Journal] (SCIE)
+-- More details can be found [projects/hdrqn.html here].
+~
+
 == Research Projects
 
 ~
@@ -53,6 +67,17 @@
 -- Intern project at [http://www.polliwogeda.com/xe_new/ Polliwog Corp.] (Summer 2014)
 -- The final goal is to find a shortest path between two points in a PCB
 -- More details can be found [projects/shortest_path.html here].
+~
+
+== Company Projects
+
+~
+- *pixNotes: a utility tool for iOS and and Android*
+-- Import images from library
+-- Take a note, draw shapes (hand recognition)
+-- Adding voice
+-- Export to html and docx
+-- Code can be found [https://github.com/lephamtuyen/pixNotes here]
 ~
 
 == Courses Projects
