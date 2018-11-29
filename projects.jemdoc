@@ -16,8 +16,8 @@
 -- The next level of AI will be high-quality video games such as [https://blog.openai.com/openai-five/ DotA 2], [https://github.com/deepmind/pysc2 Starcraft II]. Let's see!
 -- [https://blog.openai.com/openai-five/ DotA 2] and [https://github.com/deepmind/pysc2 Starcraft II] is more difficult than Chess or Go due to:
 --- A lot of states and actions
---- The AI agent plans under partial observability
---- Multiple agent
+--- Multiple agents cooperate under partial observability
+-- Try to apply my own hierarchical reinforcement learning algorithms
 ~
 
 == Research Projects
