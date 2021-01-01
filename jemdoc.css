@@ -8,9 +8,7 @@ table#tlayout {
 
 body {
 	background: white;
-	/*font-family: 'Ubuntu', sans-serif;*/
-	font-family: "Verdana", Geneva, sans-serif;
-	font-size: 0.7em;
+	font-family: Georgia, serif;
 	padding-bottom: 8px;
 	margin: 0;
 }
@@ -21,12 +19,11 @@ body {
 	padding-top: 0.5em;
 	padding-left: 8px;
 	padding-right: 8px;
-	font-size: 1.05em;
+	font-size: 1.0em;
 	width: auto;
 	white-space: nowrap;
     text-align: left;
     vertical-align: top;
-    line-height: 175%
 }
 
 #layout-menu td {
@@ -45,7 +42,7 @@ body {
 }
 
 #layout-menu a {
-	line-height: 1.0em;
+	line-height: 1.5em;
 	margin-left: 0.5em;
 }
 
@@ -80,25 +77,11 @@ a:hover {
 }
 
 div.menu-category {
-	border-bottom: 1.0px solid #001;
-	border-radius: 50%;
-	margin-top: 0.0em;
-	padding-top: 0.0em;
-	margin-left: 0.20em;
-	margin-bottom: 0.0em;
-	font-size: 100%;
-	text-shadow: 1px 1px 1px #aaa;
-}
-
-div.menu-head {
-	border-bottom: 1.0px solid #001;
-	margin-top: 0.0em;
-	padding-top: 0.0em;
-	padding-bottom: 0.0em;
-	margin-bottom: 0.0em;
-	font-family: 'Dawning of a New Day', cursive;
-	font-size: 165%;
-	text-shadow: 1px 1px 1px #aaa;
+	border-bottom: 1px solid gray;
+	margin-top: 0.8em;
+	padding-top: 0.2em;
+	padding-bottom: 0.1em;
+	font-weight: bold;
 }
 
 div.menu-item {

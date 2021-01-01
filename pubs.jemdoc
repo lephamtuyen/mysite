@@ -1,12 +1,17 @@
 # jemdoc: menu{MENU}{pubs.html}
-= Publications
+= Publications ([https://scholar.google.com/citations?user=tgy0skAAAAAJ&hl=en Google Scholar])
 
+== Workshop Papers
+. Tuyen P. Le. A deep decision-making framework for fraud detection. NeurIPS, 2019
 
 == Journal Papers
-. Hoang Huu Viet, /*Tuyen P. Le*/, and TaeChoong Chung. "A Shortlist-based Bidirectional Local Search for the Stable Marriage Problem" Applied Intelligence (Major Revision) \[*SCI*\]
-. /*Tuyen P. Le*/, Vien Anh Ngo, Md Abu Layek, and TaeChoong Chung. "A Deep Hierarchical Reinforcement Learning Algorithm in Partially Observable Markov Decision Processes" IEEE Access \[*SCIE*\]\[[https://ieeexplore.ieee.org/document/8421749 *Link*]\]
-. /*Tuyen P. Le*/, Vien Anh Ngo, P. Marlith Jaramillo, and TaeChoong Chung. "Importance sampling policy gradient algorithms in reproducing kernel Hilbert space." Artificial Intelligence Review (2017): 1-21. \[*SCI*\]\[[https://link.springer.com/article/10.1007/s10462-017-9579-x *Link*]\]
-. /*Tuyen P. Le*/, Hoang Huu Viet, Sang Hyeok An, Seung Gwan Lee, Dong-Han Kim, and Tae Choong Chung: "Univector field method-based multi-agent navigation for pursuit problem in obstacle environments." Journal of Central South University 24, no. 4 (2017): 1002-1012. \[*SCIE*\]\[[https://link.springer.com/article/10.1007/s11771-017-3502-0 *Link*]\]
+. Hoang Huu Viet, Le Hong Trang, /*Le Pham Tuyen*/, and Taechoong Chung. A shortlist-based bidirectional local search for the stable marriage problem. Journal of Experimental & Theoretical Artificial Intelligence(/*IF:2.111*/), 32(1):147–163, 2020.
+. SeungYoon Choi, /*Tuyen P Le*/, Quang D Nguyen, Md Abu Layek, SeungGwan Lee, and TaeChoong Chung. Toward self-driving bicycles using state-of-the-art deep reinforcement learning
+algorithms. Symmetry (/*IF:2.645*/), 11(2):290, 2019.
+. Md Layek, AFM Uddin, /*Tuyen P Le*/, TaeChoong Chung, Eui-Nam Huh, et al. Center-emphasized visual saliency and a contrast-based full reference image quality index. Symmetry (/*IF:2.645*/), 11(3):296, 2019.
+. /*Tuyen P. Le*/, Vien Anh Ngo, Md Abu Layek, and TaeChoong Chung. "A Deep Hierarchical Reinforcement Learning Algorithm in Partially Observable Markov Decision Processes" IEEE Access (/*IF:3.745*/)
+. /*Tuyen P. Le*/, Vien Anh Ngo, P. Marlith Jaramillo, and TaeChoong Chung. "Importance sampling policy gradient algorithms in reproducing kernel Hilbert space." Artificial Intelligence Review (2017): 1-21. (/*IF:5.747*/)
+. /*Tuyen P. Le*/, Hoang Huu Viet, Sang Hyeok An, Seung Gwan Lee, Dong-Han Kim, and Tae Choong Chung: "Univector field method-based multi-agent navigation for pursuit problem in obstacle environments." Journal of Central South University 24, no. 4 (2017): 1002-1012. (/*IF:1.249*/)
 
 == International Conference Papers
 . /*Tuyen P. Le*/, Abu Layek, Ngo Anh Vien, and TaeChoong Chung. "Deep reinforcement learning algorithms for steering an underactuated ship." In Multisensor Fusion and Integration for Intelligent Systems (MFI), 2017 IEEE International Conference on, pp. 602-607. IEEE, 2017.\[[https://ieeexplore.ieee.org/abstract/document/8170388/ *Link*]\]
@@ -25,6 +30,3 @@
 . JinSeok Kim, Seung-yoon Choi, CholJin Jong, Md. Abu Layek, /*Tuyen P. Le*/, Marlith Jaramillo, TaeChoong Chung. (2016). Selected wireless mesh network model and architecture for a communication interruption in the fixed wireless environment. KCC2016, 1265-1267. \[[http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07017806 *Link*]\]
 . Seung-yoon Choi, Md. Abu Layek, /*Tuyen P. Le*/, Cheoljin Jeong, Jinseok Kim, Marlith Jaramillo, TaeChoong Chung. (2016). A Study of Sequential Workspace Management Approach for Autonomous Mobile Robot in Path Planning Problem. KCC2016, 1036-1038.\[[http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07017729 *Link*]\]
 . Md. Abu Layek, Seung-yoon Choi, /*Tuyen P. Le*/, Marlith Jaramillo, JinSeok Kim, Jeong cheol jin, Eui-Nam Huh, TaeChoong Chung. (2016). Compression Efficiency Of Text Images In Hangul And Other Languages. KCC2016, 777-779.\[[http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07017641 *Link*]\]
-
-
-
