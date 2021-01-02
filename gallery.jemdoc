@@ -1,0 +1,36 @@
+# jemdoc: menu{MENU}{index.html}
+= Gallery
+
+== Dacon 2020
+
+~~~
+{}{img_left}{images/dacon.png}{}{900px}{}{}
+
+~~~
+
+== NeurIPS2019
+~~~
+{}{img_left}{images/nips_1.jpg}{}{900px}{}{}
+
+~~~
+
+~~~
+{}{img_left}{images/nips_2.jpg}{}{900px}{}{}
+
+~~~
+
+~~~
+{}{img_left}{images/nips_3.jpg}{}{900px}{}{}
+
+~~~
+
+== ATS2019
+~~~
+{}{img_left}{images/ats_1.jpg}{}{900px}{}{}
+
+~~~
+
+~~~
+{}{img_left}{images/ats_2.jpg}{}{900px}{}{}
+
+~~~
