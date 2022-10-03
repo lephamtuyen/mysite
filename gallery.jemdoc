@@ -1,14 +1,26 @@
 # jemdoc: menu{MENU}{index.html}
 = Gallery
 
-== Dacon 2020
+== (2021) Research Activities
+
+~~~
+{}{img_left}{images/2021_1.JPG}{}{900px}{}{}
+
+~~~
+
+~~~
+{}{img_left}{images/2021_2.JPG}{}{900px}{}{}
+
+~~~
+
+== (2020) DACON
 
 ~~~
 {}{img_left}{images/dacon.png}{}{900px}{}{}
 
 ~~~
 
-== NeurIPS2019
+== (2019) NeurIPS
 ~~~
 {}{img_left}{images/nips_1.jpg}{}{900px}{}{}
 
@@ -24,7 +36,7 @@
 
 ~~~
 
-== ATS2019
+== (2019) ATS
 ~~~
 {}{img_left}{images/ats_1.jpg}{}{900px}{}{}
 
