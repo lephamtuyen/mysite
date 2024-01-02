@@ -2,13 +2,17 @@
 = Tuyen P. Le (Lê Phạm Tuyên)
 
 ~~~
-{}{img_left}{images/avatar.jpg}{Tuyen P. Le}{360px}
+{}{img_left}{images/avatar.jpg}{Tuyen P. Le}{180px}
 == Info
-Senior Researcher (Ph.D.)
+Senior Research Engineer (Ph.D.)
 \n AgileSoDA Company, South Korea.
 == Contacts
 Email: [tuyenkhu@gmail.com]
+~~~
+
+~~~
 == News
+\n 03-2023: Toward AI-based semiconductor design with two papers accepted at [https://ieeexplore.ieee.org/document/10136947 DATE] (main conference) and [https://fastmachinelearning.org/iccad2023/program.html ICCAD] (FastML Workshop).
 \n 11-2022: Top-10 finalist [https://tuoitre.vn/trao-giai-qua-cau-vang-cho-10-guong-mat-tre-nghien-cuu-khoa-hoc-cong-nghe-xuat-sac-20221127184513117.htm Golden Globe Science and Technology Award 2022].
 \n 12-2021: AgileSoDA is listed as [https://www.gartner.com/en/doc/749379-cool-vendors-must-build-trust-with-digital-innovation Gartner Cool Vendor] and [https://www.ft.com/high-growth-asia-pacific-ranking-2021 Asia-Pacific High-Growth Companies] in 2021!
 \n 10-2021: A2GAN paper [https://ieeexplore.ieee.org/abstract/document/9558764 published]!
@@ -22,6 +26,6 @@ Email: [tuyenkhu@gmail.com]
 ~~~
 
 == About Me
-I am currently a Research Engineer at AgileSoDA Company.
-In the past, I received Ph.D. in Computer Engineering from Kyung Hee University (South Korea) and
-B.S. in Computer Science from HCMC University of Technology, Vietnam.
+I am currently a Senior Research Engineer at AgileSoDA Company. 
+Previously, I earned a Ph.D. in Computer Engineering from Kyung Hee University in South Korea and 
+a B.S. in Computer Science from HCMC University of Technology in Vietnam.
